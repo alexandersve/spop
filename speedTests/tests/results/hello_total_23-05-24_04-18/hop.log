@@ -1,0 +1,9 @@
+FILENAME: hop.log
+Type	Mean(s)	 99% (+/-)	Confidence Interval
+Real:	5.381	  0.028		5.353 - 5.408
+User:	21.945	  0.194		21.750 - 22.139
+Sys:	1.587	  0.037		1.549 - 1.624
+
+Samples: 101
+Critical_value: 2.626
+

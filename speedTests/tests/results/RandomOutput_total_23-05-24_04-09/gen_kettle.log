@@ -1,0 +1,9 @@
+FILENAME: gen_kettle.log
+Type	Mean(s)	 99% (+/-)	Confidence Interval
+Real:	1.626	  0.012		1.614 - 1.638
+User:	3.668	  0.048		3.620 - 3.716
+Sys:	0.487	  0.020		0.466 - 0.507
+
+Samples: 101
+Critical_value: 2.626
+

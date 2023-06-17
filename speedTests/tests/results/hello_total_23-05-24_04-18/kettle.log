@@ -1,0 +1,9 @@
+FILENAME: kettle.log
+Type	Mean(s)	 99% (+/-)	Confidence Interval
+Real:	3.931	  0.016		3.915 - 3.948
+User:	12.994	  0.139		12.855 - 13.133
+Sys:	1.606	  0.054		1.552 - 1.660
+
+Samples: 101
+Critical_value: 2.626
+

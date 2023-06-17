@@ -1,0 +1,9 @@
+FILENAME: gen_hop.log
+Type	Mean(s)	 99% (+/-)	Confidence Interval
+Real:	1.242	  0.015		1.228 - 1.257
+User:	2.656	  0.032		2.624 - 2.688
+Sys:	0.366	  0.021		0.345 - 0.387
+
+Samples: 101
+Critical_value: 2.626
+

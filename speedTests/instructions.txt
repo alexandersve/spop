@@ -1,0 +1,7 @@
+# After running buildTestCreater.sh the resulting docker image, my-test-creater, can be run in two main ways
+
+# First one by giving a xml file with kettle or hop settings
+docker run --user "$(id -u):$(id -g)" --rm -e RUN_TYPE=KETTLE_OR_HOP -e INPUT_FILE=PATH_TO_FILE_IN_CONTAINER -v DIRECTORY_TO_PLACE_RESULTS:/target -v DIRECTORY_WITH_XML_FILE:/src my-test-creater
+
+# Second one by inserting already created java files
+docker run --user "$(id -u):$(id -g)" --rm -e RUN_TYPE=KETTLE_OR_HOP -v DIRECTORY_TO_PLACE_RESULTS:/target -v DIRECTORY_WITH_JAVA_FILES:/src my-test-creater

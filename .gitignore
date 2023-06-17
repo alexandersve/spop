@@ -1,0 +1,42 @@
+# General
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+*.gz
+*.tar
+*.zip
+.idea/
+
+# Vim
+*.swp
+
+# Rust
+**/*.rs.bk
+Cargo.lock
+debug/
+/rust/Hello/Hello.txt
+
+# DemoSpeed
+!demoSpeed/
+demoSpeed/result
+demoSpeed/hello.txt
+demoSpeed/imports/hop-client-2.3.0-SNAPSHOT.zip
+demoSpeed/hop/audit
+demoSpeed/rust/*
+
+# Java project
+submodules/demo-hop/assemblies/
+submodules/demo-hop/.gitignore
+
+# Code Generation
+codeGeneration/java/src/
+codeGeneration/go/input/
+
+# Speed Tests
+speedTests/input/
+speedTests/tests/src/*/hop/hop/
+speedTests/tests/src/*/kettle/data-integration/
