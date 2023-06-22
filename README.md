@@ -1,14 +1,15 @@
 # Spop - Data flow code generater for Pentaho Kettle and Apache Hop
 
-Master thesis by Alexander Svensson, Master of Science in Engineering Physics, about code generation and compilation of Pentaho Kettle and Apache Hop structures.
+Code from the Master thesis by Alexander Svensson, Master of Science in Engineering Physics, about code generation and compilation of Pentaho Kettle and Apache Hop structures. The actual paper can be found here: [Code Generation for Accelerating Data Flow](http://umu.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=28&af=%5B%5D&searchType=LIST_LATEST&sortOrder2=title_sort_asc&query=&language=en&pid=diva2%3A1771458&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=2508)
 
-This is cleaned up version of the code used for my Master thesis paper, still it isn't created with general use in mind and no testing has been done by other users or on other computers. Feel free to contact me on anything that is unclear.
+This is cleaned up version of the code used for my Master thesis paper, but still it isn't created with general use in mind and no testing has been done by other users or on other computers. Feel free to contact me on anything that is unclear.
 
-DISCLAIMER: This is a project made on top of two Open Source projects that are under the Apache License. I have as far as I could tried to not include explicit code from them in the git code but may not always have been succesful. Hopefully these occurences are obvious but reuse all code under your own risk (or according to the Apache License).
+DISCLAIMER: This is a project made on top of two Open Source projects that are under the Apache License. I have, as far as I could, tried to not include explicit code from them in the git code but have not always been succesful. Hopefully these occurences are obvious but reuse all code under your own risk (or according to the Apache License). Pentaho Kettle's open source can be found here: [Github.com/pentaho/pentaho-kettle](https://github.com/pentaho/pentaho-kettle). Apache Hop's open source can be found here: [Github.com/apache/hop](https://github.com/apache/hop).
 
 
 # Structure
 codeGeneration - contains everything connected to the actual code generator.
+
 speedTests - contains several speed tests for different jobs and transformations. Also has a Dockerfile for easily generating new code for jobs and transformations.
 
 
